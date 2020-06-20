@@ -1,14 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap"rel="stylesheet");
+@import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap");
 
 main {
   border: 2px solid #000;
   width: 248px;
   text-align: center;
   margin: 0 auto;
+  margin-top: 15px;
 }
 
 .title {
-  color: green;
-  font-family: "Odibee Sans", cursive;
- 
+  color: #2f7bf5;
+  height: 100%;
+  background-color:#34e8eb;
+  font-family: 'Suez One', serif;
+  padding: 0px;
+}
+
+input[type = "button"]{
+  background-color:#34e8eb;
+  border: solid black 1px; 
+  width:95%;
+  shadow: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+input[type = "button"]:hover{
+  width:110%;
+  background-color: #0e0582;
 }
